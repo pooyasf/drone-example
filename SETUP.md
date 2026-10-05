@@ -5,7 +5,7 @@ Please do this **before** the class starts. It takes about 10–15 minutes, most
 You will need:
 
 - Python 3.12, 3.13 or 3.14. **Not 3.15**: it is brand new and some packages don't support it yet.
-- The course folder (`drone_jupyter-main`), downloaded and unzipped somewhere easy to find, for example your Desktop or Documents
+- The course folder. Go to <https://github.com/pooyasf/drone-example>, click the green **Code** button, then **Download ZIP**, and unzip it. You get a folder called `drone-example-main`. (If you use git: `git clone https://github.com/pooyasf/drone-example.git`, which gives a folder called `drone-example`.)
 
 Pick your operating system below. You type every command into a terminal; press Enter after each one.
 
@@ -15,7 +15,7 @@ Pick your operating system below. You type every command into a terminal; press 
 
 1. **Install Python.** Download and run the [Python 3.14 macOS installer](https://www.python.org/ftp/python/3.14.8/python-3.14.8-macos11.pkg). When it finishes, double-click **Install Certificates.command** in the Python folder that opens.
 2. **Open Terminal** (Cmd+Space, type `Terminal`, press Enter).
-3. **Go to the course folder.** Type `cd ` (with a trailing space), drag the `drone_jupyter-main` folder from Finder into the Terminal window, and press Enter.
+3. **Go to the course folder.** Type `cd ` (with a trailing space), drag the `drone-example-main` folder from Finder into the Terminal window, and press Enter.
 4. **Create an environment and install the packages:**
    ```bash
    python3 -m venv .venv
@@ -36,7 +36,7 @@ Pick your operating system below. You type every command into a terminal; press 
    (Fedora: `sudo dnf install python3 python3-pip`. Other distributions: install Python 3 with `venv` and `pip`.)
 2. **Open a terminal in the course folder:**
    ```bash
-   cd ~/Downloads/drone_jupyter-main
+   cd ~/Downloads/drone-example-main
    ```
    (Change the path to wherever you unzipped it.)
 3. **Create an environment and install the packages:**
@@ -53,8 +53,8 @@ Pick your operating system below. You type every command into a terminal; press 
 ## Windows
 
 1. **Install Python.** Download and run the [Python 3.14 Windows installer](https://www.python.org/ftp/python/3.14.8/python-3.14.8-amd64.exe) (this one also works on ARM/Snapdragon laptops). On the first screen of the installer, **tick "Add python.exe to PATH"**, then click *Install Now*.
-2. **Unzip the course folder.** Right-click the downloaded zip, choose *Extract All*, and extract it to your user folder, e.g. `C:\Users\<your name>\drone_jupyter-main`. Don't work inside the zip, and avoid OneDrive-synced folders (Desktop and Documents often are): syncing the installed packages is slow and can break them.
-3. **Open the course folder in Command Prompt.** Open the extracted `drone_jupyter-main` folder in File Explorer, click the address bar, type `cmd`, and press Enter. Use Command Prompt, not PowerShell (see Troubleshooting).
+2. **Unzip the course folder.** Right-click the downloaded zip, choose *Extract All*, and extract it to your user folder, e.g. `C:\Users\<your name>\drone-example-main`. Don't work inside the zip, and avoid OneDrive-synced folders (Desktop and Documents often are): syncing the installed packages is slow and can break them.
+3. **Open the course folder in Command Prompt.** Open the extracted `drone-example-main` folder in File Explorer, click the address bar, type `cmd`, and press Enter. Use Command Prompt, not PowerShell (see Troubleshooting).
 4. **Create an environment and install the packages:**
    ```bat
    py -m venv .venv
