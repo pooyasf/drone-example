@@ -1,6 +1,8 @@
-# Topical Lectures
+# Integrative Imaging Systems Design MIE2001 - Skills training: Motion control & mechatronics
 
-Andreas Freise 27.05.2026
+Important: Please complete the procedure explained in ‘SETUP.md’  before Friday, 9 October.
+
+Based on the course by Andreas Freise 27.05.2026
 
 Hands-on material for a control-systems lecture. Students learn the basics of feedback control by flying a virtual 2D drone, working entirely inside Jupyter notebooks. 
 
