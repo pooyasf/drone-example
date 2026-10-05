@@ -1,0 +1,11 @@
+name: dropship
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy>=1.26
+  - scipy>=1.11
+  - matplotlib>=3.8
+  - jupyterlab
+  - ipykernel
+  - pyqt
